@@ -84,18 +84,18 @@ const campaign = {
 
 export default function Pricing() {
   return (
-    <section className="py-20 lg:py-28 bg-gray-50" id="pricing">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-gray-50" id="pricing">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             料金プラン
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
             シンプルで
             <span className="text-blue-600">わかりやすい</span>料金
           </h2>
-          <p className="text-gray-600 text-lg max-w-xl mx-auto">
+          <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
             隠れた費用は一切なし。診察料は永久無料。いつでも解約できます。
           </p>
         </div>
@@ -122,7 +122,7 @@ export default function Pricing() {
         </div>
 
         {/* Plans grid */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {plans.map(({ name, description, price, unit, icon: Icon, color, headerColor, iconColor, badge, badgeColor, features, cta, ctaStyle }) => (
             <div
               key={name}

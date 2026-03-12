@@ -53,14 +53,14 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-gray-50 to-white" id="testimonials">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-gray-50 to-white" id="testimonials">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-yellow-50 border border-yellow-200 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             患者様の声
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
             <span className="text-blue-600">50万人</span>以上が
             <br />
             実感した変化

@@ -26,16 +26,16 @@ export default function ServicesPage() {
     <main>
       <Header />
 
-      <section className="pt-24 pb-12 lg:pt-28 lg:pb-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-14">
+      <section className="pt-20 sm:pt-24 pb-10 sm:pb-12 lg:pt-28 lg:pb-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-center mb-10 sm:mb-14">
             <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               診療科目
             </div>
-            <h1 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
               幅広い診療科目に<span className="text-blue-600">対応</span>
             </h1>
-            <p className="text-gray-600 text-lg max-w-xl mx-auto">
+            <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
               18科目以上の専門診療をオンラインで提供。各科目の説明は各ページでご確認いただけます。
             </p>
           </div>

@@ -89,14 +89,14 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 
 export default function FAQ() {
   return (
-    <section className="py-20 lg:py-28 bg-white" id="faq">
-      <div className="max-w-4xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-white" id="faq">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             よくある質問
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
             よくある<span className="text-blue-600">ご質問</span>
           </h2>
           <p className="text-gray-600 text-lg">

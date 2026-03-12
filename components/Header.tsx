@@ -129,8 +129,8 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isMobileOpen && (
-        <div className="fixed inset-0 z-40 bg-white pt-16">
-          <div className="p-6 flex flex-col gap-1">
+        <div className="fixed inset-0 z-40 bg-white pt-16 safe-area-inset-bottom overflow-y-auto">
+          <div className="p-4 sm:p-6 flex flex-col gap-1 min-h-full pb-[env(safe-area-inset-bottom)]">
             {navItems.map((item) => (
               <div key={item.label}>
                 <a

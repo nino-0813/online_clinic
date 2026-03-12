@@ -1,6 +1,8 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 
-const footerLinks = {
+type FooterLink = { label: string; href: string; external?: boolean };
+
+const footerLinks: Record<string, FooterLink[]> = {
   診療科目: [
     { label: "AGA（薄毛）治療", href: "/menu/aga" },
     { label: "ED治療", href: "/menu/ed" },
@@ -31,10 +33,10 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       {/* Main footer */}
-      <div className="max-w-7xl mx-auto px-4 py-14 lg:py-16">
-        <div className="grid lg:grid-cols-5 gap-10 lg:gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14 lg:py-16">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-8">
           {/* Brand */}
-          <div className="lg:col-span-2">
+          <div className="col-span-2 lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-5">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-teal-400 flex items-center justify-center">
                 <span className="text-white font-bold text-xs">オン</span>
@@ -60,7 +62,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2.5 text-gray-400">
                 <MapPin size={15} className="text-blue-400 flex-shrink-0 mt-0.5" />
-                <span>〒150-0043 東京都渋谷区道玄坂一丁目10番8号 渋谷道玄坂東急ビル2階-C</span>
+                <span className="text-xs sm:text-sm">〒150-0043 東京都渋谷区道玄坂一丁目10番8号 渋谷道玄坂東急ビル2階-C</span>
               </div>
               <div className="pt-2 border-t border-gray-700 mt-2">
                 <a

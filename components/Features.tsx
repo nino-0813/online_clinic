@@ -47,25 +47,25 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-gray-50 to-white" id="features">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-gray-50 to-white" id="features">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             選ばれる理由
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
-            メディカルコネクトが
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4 px-1">
+            みんなのオンクリが
             <br />
             <span className="text-blue-600">選ばれる6つの理由</span>
           </h2>
-          <p className="text-gray-600 text-lg max-w-xl mx-auto">
+          <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
             忙しい現代人のために。病院に行けない・行きにくいすべての方へ。
           </p>
         </div>
 
         {/* Features grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {features.map(({ icon: Icon, title, description, color, badge }) => (
             <div
               key={title}
@@ -88,11 +88,11 @@ export default function Features() {
         </div>
 
         {/* Bottom CTA banner */}
-        <div className="mt-14 bg-gradient-to-r from-blue-600 to-teal-500 rounded-3xl p-8 lg:p-10 text-white text-center relative overflow-hidden">
+        <div className="mt-10 sm:mt-14 bg-gradient-to-r from-blue-600 to-teal-500 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 text-white text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-white/5 -translate-y-1/2 translate-x-1/4" />
           <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-white/5 translate-y-1/2 -translate-x-1/4" />
           <div className="relative">
-            <h3 className="text-2xl lg:text-3xl font-extrabold mb-3">
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold mb-3">
               今なら初月の薬代が<span className="text-yellow-300">20%OFF</span>
             </h3>
             <p className="text-blue-100 mb-6 text-lg">

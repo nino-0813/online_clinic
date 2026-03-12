@@ -53,17 +53,17 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-white to-blue-50/50" id="how-it-works">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-white to-blue-50/50" id="how-it-works">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-200 text-indigo-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             ご利用の流れ
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
             たった<span className="text-blue-600">4ステップ</span>で完結
           </h2>
-          <p className="text-gray-600 text-lg max-w-xl mx-auto">
+          <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
             難しい操作は一切不要。スマホがあれば、どなたでも簡単にご利用いただけます。
           </p>
         </div>
@@ -73,7 +73,7 @@ export default function HowItWorks() {
           {/* Connector line (desktop) */}
           <div className="hidden lg:block absolute top-20 left-1/2 -translate-x-1/2 w-[75%] h-0.5 bg-gradient-to-r from-blue-200 via-teal-200 to-orange-200 z-0" />
 
-          <div className="grid lg:grid-cols-4 gap-6 lg:gap-4 relative z-10">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4 relative z-10">
             {steps.map((step, idx) => {
               const Icon = step.icon;
               return (

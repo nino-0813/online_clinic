@@ -33,9 +33,9 @@ export default function FCPage() {
       <Header />
 
       {/* Hero - PDF P1 */}
-      <section className="pt-24 pb-12 lg:pt-28 lg:pb-16 bg-gradient-to-b from-white to-blue-50/30">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <p className="text-blue-600 font-bold text-sm lg:text-base mb-3">
+      <section className="pt-20 sm:pt-24 pb-10 sm:pb-12 lg:pt-28 lg:pb-16 bg-gradient-to-b from-white to-blue-50/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+          <p className="text-blue-600 font-bold text-xs sm:text-sm lg:text-base mb-3">
             『医療知識ゼロ！医療資格不要！ほぼ業務負担なし！』
           </p>
           <h1 className="text-2xl lg:text-4xl font-extrabold text-gray-900 mb-2">
@@ -48,8 +48,8 @@ export default function FCPage() {
       </section>
 
       {/* はじめに / みんなのオンクリとは？ - インフォグラフィック */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4">
+      <section className="py-10 sm:py-12 lg:py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="relative w-full aspect-[2986/1408] min-h-[280px] rounded-2xl overflow-hidden bg-gray-100">
             <Image
               src="/images/fc-intro.webp"
@@ -440,8 +440,9 @@ export default function FCPage() {
       </section>
 
       {/* 他社オンラインクリニックとの比較 - PDF P8 */}
-      <section className="py-12 lg:py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4">
+      <section className="py-10 sm:py-12 lg:py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <div className="-mx-4 sm:mx-0">
           <p className="text-teal-600 font-semibold text-sm uppercase tracking-wider mb-2 text-center">
             Comparison
           </p>
@@ -511,12 +512,13 @@ export default function FCPage() {
               </tbody>
             </table>
           </div>
+          </div>
         </div>
       </section>
 
       {/* FCプラン一覧 - PDF P9 */}
-      <section className="py-12 lg:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="py-10 sm:py-12 lg:py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <p className="text-teal-600 font-semibold text-sm uppercase tracking-wider mb-2 text-center">
             加盟金・広告費・FC収益
           </p>

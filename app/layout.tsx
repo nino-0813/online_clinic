@@ -8,12 +8,19 @@ const notoSansJP = Noto_Sans_JP({
   display: "swap",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+};
+
 export const metadata: Metadata = {
-  title: "メディカルコネクト | オンラインクリニック",
+  title: "みんなのオンクリ | オンラインクリニック",
   description: "スマホひとつで完結。24時間受付・診察料無料のオンラインクリニック。AGA・ED・ダイエット・スキンケアなど幅広い診療科目に対応。",
   keywords: "オンライン診療,オンラインクリニック,AGA,ED,ダイエット,スキンケア,禁煙,遠隔診療",
   openGraph: {
-    title: "メディカルコネクト | オンラインクリニック",
+    title: "みんなのオンクリ | オンラインクリニック",
     description: "スマホひとつで完結。24時間受付・診察料無料のオンラインクリニック。",
     type: "website",
   },

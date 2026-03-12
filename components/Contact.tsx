@@ -31,22 +31,22 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-blue-50/50 to-white" id="contact">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="py-12 sm:py-20 lg:py-28 bg-gradient-to-b from-blue-50/50 to-white" id="contact">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
             お問い合わせ
           </div>
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
             まずは<span className="text-blue-600">無料相談</span>から
           </h2>
-          <p className="text-gray-600 text-lg max-w-xl mx-auto">
+          <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto">
             診療のご予約・ご質問など、なんでもお気軽にどうぞ。専門スタッフが丁寧にご対応します。
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-12">
           {/* Contact info */}
           <div className="lg:col-span-2 flex flex-col gap-6">
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
