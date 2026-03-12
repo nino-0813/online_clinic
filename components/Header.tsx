@@ -7,7 +7,7 @@ const navItems = [
   { label: "TOP", href: "/" },
   {
     label: "診療科目",
-    href: "/#services",
+    href: "/services",
     children: [
       { label: "AGA（薄毛）治療", href: "/menu/aga" },
       { label: "ED治療", href: "/menu/ed" },
