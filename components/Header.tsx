@@ -3,7 +3,14 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 
-const navItems = [
+type NavItem = {
+  label: string;
+  href: string;
+  labelLine2?: string;
+  children?: { label: string; href: string }[];
+};
+
+const navItems: NavItem[] = [
   { label: "TOP", href: "/" },
   {
     label: "診療科目",
